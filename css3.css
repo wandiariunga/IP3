@@ -164,3 +164,16 @@ footer ul li{
     display: inline-block;
 
 }
+  
+#imageOne:hover {
+    opacity: 0.5;
+  }
+  
+
+  #imageTwo:hover { opacity: 0.5;}
+  #imageThree:hover {opacity: 0.5;}
+  #imageFour:hover {opacity: 0.5;}
+  #imageFive:hover {opacity: 0.5;}
+  #imageSix:hover {opacity: 0.5;}
+  #imageSeven:hover {opacity: 0.5;}  
+  #imageEight:hover {opacity: 0.5;}
