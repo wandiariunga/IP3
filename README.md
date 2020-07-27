@@ -18,4 +18,5 @@ To create this app installed and used the Ubuntu platform. There used the comman
 Incase of issues contact me directly at wandiariunga@gmail.com. I will be more than happy to assist.
 ### License
 *No licenses required as the applications are mostly open source. However i used Visual Studio code the free version*
+Copied images from github.com: user:jonnygovish commited on May 2, 2019
 Copyright (c) 2020 **Wandia Riunga**
