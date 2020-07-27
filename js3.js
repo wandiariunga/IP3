@@ -35,4 +35,6 @@
                 alert(form.fullName.value + "  we have recieved your message. Thank you for reaching out to us");
                 form.reset();
             };
-    });
+
+            });
+    
