@@ -1,0 +1,166 @@
+
+.content {
+    margin:30px 50px; /*top-bottom and left and right */
+    line-height: 1.4;
+    background-color: white;
+    box-sizing: border-box; /*passing wont affect width of image*/
+    font-family: Arial, Helvetica, sans-serif;
+    display:grid;
+    grid-gap:20px; /* so we dont manually assigne ach margin */
+}
+
+button{
+    background: var(--light);
+    color: var(--light);
+    padding: 0.6rem 1.3rem;
+    text-decoration: none; /*to remove the underline */
+    border:0;
+} 
+
+img{
+    max-width:100%; /*so they can stay within their parent  */
+}
+
+p {
+    font-size: 1.3;
+    text-align: center;
+}
+
+.container-title {
+    font-size: 1;
+    text-align: center;
+    font-weight: bold;
+}
+
+section{
+    padding:20px;
+}
+
+ #header{
+    background-image: url("images/h_img.jpg");
+    background-repeat: no-repeat, repeat;
+    background-position: center center;
+    background-size: cover;
+    width:100%;
+    height:75vh;
+    text-align: center;
+    text-decoration-color: white;
+    text-decoration-style: arial;
+    padding: 3em;
+    display:flex;
+    flex-direction:column;
+    align-items:start;
+    justify-content:center;
+    color: white;
+ }
+
+#header h3{
+    font-size:4rem;
+    margin-bottom: 0;
+    color: white;
+}
+#header p{
+    font-size: 1.3;
+    margin-top: 0;
+    color: white;
+}
+
+/*Boxes*/
+.boxes{
+    display:grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr)); 
+}
+
+#box4{
+    display:grid;
+    grid-gap:30px;
+    grid-template-columns: repeat(4,1fr); 
+}
+
+#box2{
+    background-image: url("images/s_image.jpg");
+    background-repeat: no-repeat, repeat;
+    color: white;
+    background-position: center center;
+    background-size: cover;
+}
+ 
+#box5{
+    background-image: url("images/c_image.jpg");
+    background-repeat: no-repeat, repeat;
+    background-position: center center;
+    background-size: cover;
+    color: white;
+ }
+
+ #footer {
+    padding: 0 10px;
+    background:#EEE;
+    bottom:0px;
+    right:0px;
+    left:0px;
+    position:fixed;
+    box-shadow: 0px 0px 8px 0px #000000;
+}
+
+#footer p {
+margin: 0;
+padding: 10px 0;
+}
+
+footer img {
+float:right;
+height:25;
+width:25;
+}
+
+.text {
+    color: black;
+    top: 50%;
+    font-family: Arial, Verdana;
+    color: #000;
+    font-size: 5em;
+    font-weight: bold;
+    text-shadow: 1px 1px #fff;
+}
+
+#para1 {
+    display: none;
+}
+
+#para2 {
+    display: none;
+}
+
+#para3 {
+    display: none;
+}
+
+#heada1 {
+    display: none;
+}
+#heada2  {
+    display: none;
+}
+#heada3  {
+    display: none;
+}
+
+.hide {
+    display:none;
+}
+
+footer{
+    display: flex;
+}
+
+footer ul{
+    justify-content: center;
+    text-align: center;
+}
+
+footer ul li{
+    display: inline-block;
+
+}

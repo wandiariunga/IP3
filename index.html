@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js3.js"></script>
+    <link rel="stylesheet" type="text/css" href="css3.css">
+    <title>Fictional Studio Landing Page</title>
+    
+
+</head>
+<body>
+     <!-- Page content -->
+<div class="content">
+       
+    <!--Header section-->
+    <header id='header' class='grid'>
+        <div class="container0">
+            <img src="images/logo.png" alt="Delani logo"><br><br><br>
+            <h3>WELCOME <br> TO DELANI STUDIO</h3>
+            <br>
+            <p>
+            AMAZING PEOPLE ARE MAKING FUN DESIGNS IN AN AMAZING ENVIRONMENT
+            </p>
+            <img id="press" src="images/mouse_click.png" alt="mouseclick">
+        </div>        
+    </header>    
+
+    <!--Main section-->
+    <main id='main'>
+    <!--Box 1-->
+    <section id="box1" class="grid">
+        <div class="container1">
+            <p class="container-title">ABOUT US</p>
+            <p>When you work with us, you are part of a team of  committed collaborators. All aspects of our software developmetn process are integrated, interactive and agile <br> Our approach unifies design, development and product management to create exceptional products.<br>We start each project by understanding your business goals, the user's needs and the product requirements <br> Then we help translate them into effective and elegant solutions.
+            </p>
+        </div>
+    </section>
+
+    <!--Box 2-->
+    <section id="box2" class="grid">
+        <div class="container1">
+            <p class="container-title">SERVICES</p>
+            <p>Before we sign a contract or write a line of code for our team will spend the necessary time needed to understand your product vision.<br> The outcome of this scoping session is proposal or high-level statement of work.<br>based on your requirements, we can provide a complete offering or just the pieces that you need.</p>
+        </div>
+    </section>
+
+     <!--Box 3-->
+     <br>
+     <p class="container-title">WHAT WE DO</p>
+     <section class="boxes">
+        <div class="holder1">
+        <div class="card" style="width: 18rem;">
+            <button><img id="btn1" src="images/design_icon.png" alt="design"></button>
+            <div id="card-body1">
+              <p id="card-text1">DESIGN</p>
+        </div>
+        </div>
+            <p id= "heada1">DESIGN</p>
+            <p id="para1">Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.<br>Throughout your project our designers create and implement virtual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
+        </div>
+        
+        <div class="holder2">
+        <div class="card" style="width: 18rem;">
+            <button><img id="btn2" src="images/dev_icon.png" alt="design"></button>
+            <div id="card-body2">
+                <p id="card-text2">DEVELOPMENT</p>
+        </div>
+        </div>
+            <p id= "heada2">DEVELOPMENT</p>
+            <p id="para2">All engineers are fluent in the latest enterprise, mobile and web development technologies.<br>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven devlopment and pair programming.</p>
+        </div>
+        
+        <div class="holder3">
+        <div class="card" style="width: 18rem;">
+            <button><img id="btn3" src="images/product_icon.png" alt="design"></button>
+            <div id="card-body3">
+            <p id="card-text3">PRODUCT MANAGEMENT</p>
+        </div>
+        </div>
+            <p id= "heada3">PRODUCT MANAGEMENT</p>
+            <p id="para3">Planning and development is iterative. Becasue we are constantly coding and testing, the products we build are always ready to go live.<br>This iterative process allows for changes as business requirements evolve.</p>
+        </div>
+    </section>
+
+    <!--Box 4-->
+    <p class="container-title">PORTFOLIO</p>
+    <div class='container1'>
+    <section >
+    <div id="box4" class='grid'>
+            <img id=imagep1 src="images/work1.jpg" alt="Design">
+            <img id=imagep2 src="images/work2.jpg" alt="Design">
+            <img id=imagep3 src="images/work3.jpg" alt="Design">
+            <img id=imagep4 src="images/work4.jpg" alt="Design">
+            <img id=imagep5 src="images/work5.jpg" alt="Design">
+            <img id=imagep6 src="images/work6.jpg" alt="Design">
+            <img id=imagep7 src="images/work7.jpg" alt="Design">
+            <img id=imagep8 src="images/work8.jpg" alt="Design">
+    </div>
+    </div>
+    </section>
+    
+
+<!--Box 5-->
+<section id="box5" class="grid">
+    <div class="container1">
+        <p class="container-title">CONTACT US</p>
+        <form id= "name-form" onSubmit="alert('Thank you for your feedback.');">
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputName">Name</label>
+                <input type="text" name="fullName" class="form-control"  placeholder="Name">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="inputEmail">Email</label>
+                <input type="email" class="form-control"  placeholder="Email">
+            </div>
+            <div class="form-group col-md-12">
+                <label for="inputMsg">Message</label>
+                <input type="password" class="form-control" id="inputMsg" placeholder="Input your message here">
+            </div>
+        <p>
+            <input type="submit" value="Submit">
+        </p>
+        </form>
+    </div>
+    <p id="result"></p>  
+</section>
+
+    <!--Footer-->
+<footer id="main-box6" class="grid">
+    <!--Box 4-->
+    <div class="container1">
+    <ul>
+        <li> <img class="one" src="images/twitter.png" alt="twitter"></li>
+        <li><img id="one" src="images/dribble.png" alt="drible"></li>
+        <li><img id="one" src="images/facebook.png" alt="Design"></li>
+        <li><img id="one" src="images/g_plus.png" alt="Design"></li>
+        <li> <img id="one" src="images/skype.png" alt="Design"></li>
+        <li><img id="one" src="images/stumble_upon.png" alt="Design"></li>
+        <li><img id="one" src="images/behance.png" alt="Design"></li>
+        <li><img id="one" src="images/pinterest.png" alt="Design"></li>
+        <li><img id="one" src="images/flickr.png" alt="Design"></li>
+        <li><img id="one" src="images/you_tube.png" alt="Design"></li>
+    </ul>
+    <p class="container-title" text-align= "center ">DELANI STUDIO</p> 
+    <p class="container-title">2019</p> 
+</footer>
+ 
+
+</div>
+</main>  
+</div>  
+
+
+
+
+
+
+
+  
+</body>
+
+</html>
